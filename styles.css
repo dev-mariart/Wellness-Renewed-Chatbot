@@ -1,0 +1,352 @@
+/* styles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+
+.navbar {
+    padding: 10px 50px;
+    background-color: whitesmoke;
+}
+
+.navbar-nav-right {
+    margin-left: auto;
+}
+
+.navbar-nav li a {
+    color: gray;
+    font-weight: 400;
+    transition: font-size 0.2s; /* Transición de tamaño de fuente al hacer hover */
+}
+
+.navbar-nav li a:hover {
+    color: green; /* Mantener el color original al hacer hover */
+    font-weight: 600;
+    font-size: 1.1em; /* Aumentar el tamaño de fuente al hacer hover */
+}
+
+.navbar-brand {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.navbar-brand .green-text {
+    color: green;
+    font-weight: 400;
+}
+
+
+html, body {
+    overflow-x: hidden;
+}
+
+/* styles.css */
+/* ... (otros estilos) */
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+/* Estilo para la imagen */
+.image-container img {
+    width: 100%;
+    max-height: 500px; /* Cambia la altura máxima según tu preferencia */
+    object-fit: cover; /* Ajusta la imagen para cubrir todo el espacio disponible */
+    filter: sepia(70%); /* Aplica el filtro sepia al 50% (ajusta según tu preferencia) */
+}
+
+/* Estilo para el div superpuesto */
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: justify;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+/* Estilo para el título */
+.overlay h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Estilo para el texto de descripción */
+.overlay p {
+    font-size: 16px;
+}
+
+/* Estilo para el container-fluid */
+.page-content {
+    padding: 0;
+    margin: 0;
+    max-height: 500px; /* Cambia la altura máxima según tu preferencia */
+    overflow: hidden; /* Oculta el contenido adicional si se desborda */
+}
+
+/* Estilo para la línea horizontal */
+.green-line {
+    border-color: green;
+    width: 50%; /* Ajusta el ancho de la línea al 50% del contenedor */
+}
+
+/* Estilo para centrar el botón y reducir su longitud */
+.text-center {
+    text-align: center;
+    padding-top: 10px; /* Espacio superior para separar el botón del texto */
+}
+
+/* Estilo para el botón */
+.btn-success {
+    width: 150px; /* Ajusta la longitud del botón según tu preferencia */
+}
+
+/* Media Query para tamaños de pantalla más pequeños */
+@media (max-width: 768px) {
+    /* Ajusta el tamaño del overlay para pantallas más pequeñas */
+    .overlay {
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    /* Ajusta el tamaño del título para pantallas más pequeñas */
+    .overlay h2 {
+        font-size: 24px;
+    }
+
+    /* Ajusta el tamaño del texto de descripción para pantallas más pequeñas */
+    .overlay p {
+        font-size: 14px;
+    }
+
+    /* Ajusta el tamaño del botón para pantallas más pequeñas */
+    .btn-success {
+        width: 100%;
+    }
+}
+
+/* Media Query para tamaños de pantalla aún más pequeños */
+@media (max-width: 445px) {
+    
+    .overlay {
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    .overlay h2 {
+        font-size: 20px;
+    }
+
+    .overlay p {
+        font-size: 12px;
+    }
+
+    .btn-success {
+        width: 100%; 
+    }
+}
+
+/* Media Query para tamaños de pantalla aún más pequeños */
+@media (max-width: 375px) {
+    .overlay {
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    .overlay h2 {
+        font-size: 15px;
+    }
+
+    .overlay p {
+        font-size: 10px;
+    }
+
+    .btn-success {
+        width: 100%;
+    }
+}
+
+
+
+/* Estilos para la sección Why Choose Us */
+.why-choose-us {
+    padding: 50px;
+    background-color: white;
+}
+
+.why-choose-us h3 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-family: 'DM Serif Display', serif;
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+
+.card-icon {
+    font-size: 3rem; 
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.text-primary {
+    color: #007bff; 
+}
+
+.text-success {
+    color: #28a745; 
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+/* Estilos para la sección de servicios */
+.services-section {
+    background-color: whitesmoke; 
+    padding: 50px;
+    margin: 0; 
+}
+
+/* Estilos para las tarjetas de servicios */
+.service-card {
+    background-color: white; /* Color de fondo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra */
+    padding: 20px; /* Espaciado interno */
+    min-height: 100%; /* Altura mínima del contenedor */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Alinea el contenido verticalmente en el centro */
+.service-card .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.services-section h3 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-family: 'DM Serif Display', serif;
+}
+
+.service-card h5 {
+    font-size: 16px; /* Tamaño de fuente */
+    font-weight: 600; /* Estilo de fuente */
+    color: black; /* Color de texto */
+}
+
+.service-card p {
+    font-size: 10px;
+}  
+
+/* Estilos para el botón "View All Services" */
+.view-all-services-button {
+    background-color: green; /* Color de fondo verde */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    border: none; /* Quita el borde */
+    border-radius: 15px; /* Borde redondeado */
+    font-weight: bold;
+    font-size: 15px;
+    width: 250px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Cambia los colores al hacer hover en el botón */
+.view-all-services-button:hover {
+    background-color: #218838; /* Color de fondo verde oscuro al hacer hover */
+    color: white; /* Color del texto */
+}
+
+/* Estilos para la sección personalizada */
+.custom-section {
+    background-color: rgba(134, 219, 134, 0.913); /* Color de fondo */
+    padding: 50px; /* Espaciado interno superior/inferior */
+}
+
+/* Estilos para el título de la sección personalizada */
+.section-title {
+    font-size: 45px; /* Tamaño de fuente del título */
+    font-weight: bold; /* Estilo de fuente en negrita */
+    color: #333; /* Color de texto */
+    font-family: 'DM Serif Display', serif;
+}
+
+/* Estilos para el texto de la sección personalizada */
+.section-text {
+    font-size: 16px; /* Tamaño de fuente del texto */
+    color: #555; /* Color de texto */
+}
+
+/* Estilos para la sección de Testimonios */
+.testimonials-section {
+    background-color: #f9f9f9;
+    padding: 50px;
+}
+
+.testimonials-section h3 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-family: 'DM Serif Display', serif;
+}
+
+.testimonial-card {
+    border: none;
+    transition: transform 0.2s;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+}
+
+.testimonial-author-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    display: block;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.testimonial-stars {
+    color: #ffcc00;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.testimonial-author {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
