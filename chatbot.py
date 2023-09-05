@@ -87,15 +87,17 @@ massage_types = {
 }
 
 
-@app.route("public")
+@app.route("/")
 def index():
     return render_template("index.html")
+
+
 
 
 @app.route("/get")
 def get_bot_response():
     user_message = request.args.get("user_message")
-
+    print("User message:", user_message)
     
     for massage, description in massage_types.items():
         if massage in user_message.lower():
