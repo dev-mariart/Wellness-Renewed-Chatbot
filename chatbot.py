@@ -2,8 +2,7 @@ from flask import Flask, request, render_template, jsonify
 from nltk.chat.util import Chat, reflections
 import re
 
-app = Flask(__name__, static_folder="static")
-
+app = Flask(__name__, template_folder="")
 
 pairs = [
     [
@@ -90,7 +89,6 @@ massage_types = {
 @app.route("/")
 def index():
     return render_template("index.html")
-
 
 
 
