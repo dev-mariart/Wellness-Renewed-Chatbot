@@ -21,6 +21,7 @@ This repository contains the source code for the "Wellness Renewed Chatbot," a w
 - Bootstrap
 - JavaScript
 - Flask (for chatbot functionality)
+- NLTK (Natural Language Toolkit)
 
 ![Captura 2](static/img/Captura2.png)
 
