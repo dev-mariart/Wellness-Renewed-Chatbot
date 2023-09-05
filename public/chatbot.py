@@ -87,7 +87,7 @@ massage_types = {
 }
 
 
-@app.route("/")
+@app.route("public")
 def index():
     return render_template("index.html")
 
