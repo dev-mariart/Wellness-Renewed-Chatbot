@@ -1,6 +1,6 @@
 # Wellness-Renewed-Chatbot
 
-![Captura 1](static/img/captura1.png)
+![Captura 1](static/img/Captura1.png)
 
 This repository contains the source code for the "Wellness Renewed Chatbot," a web application that features an interactive chatbot designed to provide information about massage services and answer frequently asked questions related to Wellness Renewed.
 
