@@ -22,6 +22,8 @@ This repository contains the source code for the "Wellness Renewed Chatbot," a w
 - JavaScript
 - Flask (for chatbot functionality)
 
+![Captura 2](static/img/Captura2.png)
+
 # Chatbot Details
 The chatbot responds to a variety of questions related to the massage services offered at Wellness Renewed. It recognizes keywords and provides customized responses based on those keywords. Here are some examples of questions the chatbot can answer:
 
@@ -32,7 +34,6 @@ The chatbot responds to a variety of questions related to the massage services o
   
 The chatbot is designed to be the centerpiece of the application, providing users with relevant information about Wellness Renewed and its massage services.
 
-![Captura 2](static/img/Captura2.png)
 ![Video](static/img/chatbot.gif)
 
 # How to Contribute
