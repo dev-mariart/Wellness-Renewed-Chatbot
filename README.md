@@ -31,7 +31,7 @@ The chatbot responds to a variety of questions related to the massage services o
 "Tell me more about the massages."
 The chatbot is designed to be the centerpiece of the application, providing users with relevant information about Wellness Renewed and its massage services.
 
-![Captura 2](static/img/captura2.png)
+![Captura 2](static/img/Captura2.png)
 ![Video](static/img/chatbot.mp4)
 
 # How to Contribute
