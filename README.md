@@ -46,8 +46,12 @@ If you want to contribute to this project, follow these steps:
 4. Push your changes to your fork (git push origin your-new-feature).
 5. Create a Pull Request in this repository from your branch.
 
-# Author
-Dev.Eugenius
 
-# License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+## License
+
+This project is distributed under the MIT License. Please refer to the [LICENSE.md](LICENSE.md) file for more details.
+
+---
+
+© Dev.Eugenius - [Link to GitHub Profile](https://github.com/deveugenius)
+
