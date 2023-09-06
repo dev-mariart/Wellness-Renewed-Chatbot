@@ -1,6 +1,6 @@
 # Wellness-Renewed-Chatbot
 
-![Captura 1](static/img/Captura1.png)
+![Video](static/img/chatbot.gif)
 
 This repository contains the source code for the "Wellness Renewed Chatbot," a web application that features an interactive chatbot designed to provide information about massage services and answer frequently asked questions related to Wellness Renewed.
 
@@ -35,8 +35,6 @@ The chatbot responds to a variety of questions related to the massage services o
   
 The chatbot is designed to be the centerpiece of the application, providing users with relevant information about Wellness Renewed and its massage services.
 
-![Video](static/img/chatbot.gif)
-
 # How to Contribute
 If you want to contribute to this project, follow these steps:
 
@@ -46,6 +44,7 @@ If you want to contribute to this project, follow these steps:
 4. Push your changes to your fork (git push origin your-new-feature).
 5. Create a Pull Request in this repository from your branch.
 
+![Captura 1](static/img/Captura1.png)
 
 ## License
 
