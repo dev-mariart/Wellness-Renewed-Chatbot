@@ -52,5 +52,4 @@ This project is distributed under the MIT License. Please refer to the [LICENSE.
 
 ---
 
-© Dev.Eugenius - [GitHub Profile](https://github.com/deveugenius)
 
